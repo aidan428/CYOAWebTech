@@ -8,10 +8,11 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 25%;
+    width: 19%;
 }
 .header ul{
     list-style-type: none;
+    text-align: center;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -19,7 +20,7 @@ body {
 .header li{
     float: left;
     position: relative;
-    left: 27%;
+    left: 35%;
 }
 .header li a{
     display: block;
@@ -53,4 +54,10 @@ p.intro2 {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+.characterNameEntry input {
+    background-color:#00325c;
+    border-color: #FF8917;
+    text-align: center;
+    color: azure;
 }
