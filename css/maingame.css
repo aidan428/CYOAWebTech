@@ -1,0 +1,66 @@
+body {
+    background-color: #506699;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #E6B645
+}
+
+hr {
+    border-top: 1px solid #506699;
+    border-color: #506699;
+}
+
+.logo img {
+    display: block;
+    width: 12%;
+    margin-right: auto;
+    margin-left: auto;
+}
+ .container {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .image {
+     min-width: none;
+     padding-right: 2%;
+    }
+
+.text span {
+    padding: 20px;
+    margin-left: 2%;
+    margin-right: 7%;
+    border: 5px solid #E6B645;
+    display: inline-block;
+    font-size: large;
+ }
+
+ .text div {
+     color: #FF8917;
+     text-decoration: underline;
+     font-weight: bold;
+     text-align: center;
+ }
+
+ .questions ul  {
+     text-align: center;
+     list-style-type: none;
+     margin: 0%;
+     padding-right: 46%;
+ }
+
+ .questions a {
+     text-align: center;
+     text-decoration: none;
+     transition-duration: 0.3s;
+     font-size: x-large;
+     color: #002886
+ }
+
+ .questions button {
+     background-color: #FF8917;
+ }
+
+ .questions button:hover {
+     opacity: 90%;
+ }

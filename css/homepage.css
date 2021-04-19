@@ -39,6 +39,9 @@ body {
     background-color: #506699; 
     text-align: center;
   }
+.welcomePage h3 {
+    text-decoration: underline;
+}
 p.intro {
     display: block;
     margin-left: auto;
@@ -60,4 +63,24 @@ p.intro2 {
     border-color: #FF8917;
     text-align: center;
     color: azure;
+}
+.nameOfPlayer {
+    color: #FF8917;
+    font-weight: bolder;
+    font-size: larger;
+}
+.playButton {
+    background-color:#E6B645;
+    border: none;
+    color: #00325c;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.playButton:hover {
+    opacity: 1;
 }

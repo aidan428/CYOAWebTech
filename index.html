@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="css/index.css" type="text/css"/>
+        <script src="javascript/homepage.js"></script>
+        <link rel="stylesheet" href="css/homepage.css" type="text/css"/>
         <title>Next in Line</title>
     </head>
     <body>
@@ -10,10 +11,10 @@
         </div>
         <div class="header">
             <ul>
-                <li><a href="ContactUs/" target="_blank">Contact Us</a></li>
-                <li><a href="Leaderboard/" target="_blank">Leaderboard</a></li>
-                <li><a href="Suggestions/" target="_blank">Suggestions</a></li>
-                <li><a href="assets/" target="_blank">Assets</a></li>
+                <li><a href="ContactUs/">Contact Us</a></li>
+                <li><a href="Leaderboard/">Leaderboard</a></li>
+                <li><a href="Suggestions/">Suggestions</a></li>
+                <li><a href="assets/">Assets</a></li>
             </ul>
             <hr>
         </div>
@@ -26,7 +27,9 @@
             <p class=intro2>
                 99 luft ballons mentum vel, auctor ut ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Cras pretium velit massa, at hendrerit lectus ornare ut. Integer eget orci at lorem vestibulum sollicitudin in et ex. Quisque aliquet pharetra tellus quis accumsan. Aliquam tempus mi pulvinar, malesuada erat eget, blandit ex. Vestibulum vestibulum nisl quis placerat finibus. Aliquam vitae erat ac nisl porttitor auctor nec eu turpis. Duis non nisi porta, mattis metus eget, commodo ipsum. Proin dapibus vitae metus a sodales.
             </p>
-            <p class="characterNameEntry">Please enter your character's name: <input type="text" id="inputName"><button onclick="getName()">Enter</button></p>
+            <p class="characterNameEntry">Please enter your character's name: <input type="text" id="inputName"><button onclick="homePagePrintName()">Enter</button></p>
+            <p id="playerName" class="nameOfPlayer"></p>
+            <div id="clickPlay" style="display:none"><button class="playButton"><a href="nextinline/nextinline.html">Play!</a></button></div>
           </div>
     </body>
 </html>
