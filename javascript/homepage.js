@@ -1,6 +1,9 @@
 function getName() {
     var x = document.getElementById("inputName").value;
+    if (x == ''){
+        x = "Michael";
     return x;
+    }
 }
 
 function storeCharacterName() {
