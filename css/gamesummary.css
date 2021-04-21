@@ -1,0 +1,78 @@
+body {
+      background-color: #506699;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: #E6B645
+}
+
+hr {
+    border-top: 1px solid #506699;
+    border-color: #506699;
+}
+
+.Logo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 14%;
+}
+#menu-outer {
+	height: 84px;
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+}
+ul#horizontal-list li {
+    list-style: none;
+    font-size: xx-large;
+	display: inline;
+    padding: 1.9%;
+}
+
+ul#horizontal-list a {
+    text-decoration: none;
+    color: #FF8917;
+}
+
+#resultsHeader {
+    text-align: center;
+    text-decoration: underline;
+    border: 1px solid #FF8917;
+    border-color: #FF8917;
+}
+
+#results span{
+    text-align: center;
+}
+
+#results p  {
+    text-align: center;
+    font-size:x-large;
+    color: #FF8917;
+}
+
+
+.replayButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.replayButton button {
+    color:#506699;
+    background-color: #FF8917;
+    font-size: 250%;
+    border: 2px solid #ffa600;
+}
+
+.replayButton button:hover{
+    opacity: 80%;
+}

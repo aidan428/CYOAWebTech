@@ -10,25 +10,31 @@ body {
     margin-right: auto;
     width: 19%;
 }
-.header ul{
-    list-style-type: none;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+#menu-outer {
+	height: 84px;
 }
-.header li{
-    float: left;
-    position: relative;
-    left: 35%;
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
 }
-.header li a{
-    display: block;
-    padding: 8px;
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+}
+ul#horizontal-list li {
+    list-style: none;
+    font-size: xx-large;
+	display: inline;
+    padding: 1.9%;
+}
+
+ul#horizontal-list a {
+    text-decoration: none;
     color: #FF8917;
-    text-decoration: #FF8917;
-    font-size: x-large;
-    font-weight: bolder;
+    
 }
 .welcomePage {
     margin-left: auto;
@@ -83,4 +89,9 @@ p.intro2 {
 
 .playButton:hover {
     opacity: 1;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
 }

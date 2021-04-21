@@ -13,8 +13,15 @@ function showPlayButton() {
     button.style.display = "block";
 }
 function homePagePrintName() {
+    var name = getName();
+    console.log(name)
+    // Prevents blank name
+    if (name == ''){
+        name = "Michael";
+    }
+
     var initialText = "The character's name will be: " ;
-    var nameStatement = initialText.concat(getName());
+    var nameStatement = initialText.concat(name);
     document.getElementById("playerName").innerHTML = nameStatement;
     storeCharacterName();
     showPlayButton();
