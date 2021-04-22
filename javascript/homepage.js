@@ -3,9 +3,9 @@ function getName() {
     //check if input value for name is blank, if so replace with default name of Michael
     if (x == ''){
         x = "Michael";
+    }
     console.log(x);
     return x;
-    }
 }
 
 function storeCharacterName() {
