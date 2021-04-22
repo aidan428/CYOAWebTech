@@ -67,4 +67,11 @@ hr {
      font-style: italic;
  }
 
- 
+.buttons button{
+    background-color: #FF8917;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    font-size: large;
+    color: #002886
+}

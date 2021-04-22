@@ -1,5 +1,6 @@
 function getName() {
     var x = document.getElementById("inputName").value;
+    //check if input value for name is blank, if so replace with default name of Michael
     if (x == ''){
         x = "Michael";
     console.log(x);
@@ -24,7 +25,7 @@ function homePagePrintName() {
     if (name == ''){
         name = "Michael"
     };
-
+    //Generate and store character name
     var initialText = "The character's name will be: " ;
     var nameStatement = initialText.concat(name);
     document.getElementById("playerName").innerHTML = nameStatement;

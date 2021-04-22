@@ -6,7 +6,7 @@ var initialPoints = 500;
 function quitGame() {
     var modifyButton1 = document.getElementById("button1");
     modifyButton1.onclick = function() {
-        //clear inventory 
+        //clear inventory but keep points and name
         localStorage.removeItem("inventory", "conductorkey");
         localStorage.removeItem("damage", "Broken Wrist");
         localStorage.setItem("Points", initialPoints)
@@ -48,11 +48,10 @@ function hideButton3() {
 }
 
 function checkButtonsHidden() {
+    //Checks if any buttons are hidden, if so, show them
     var opacity1 = modifyButton1().style.opacity;
     var opacity2 = modifyButton2().style.opacity;
     var opacity3 = modifyButton3().style.opacity;
-
-    //console.log(opacity3)
 
     if (opacity1 < 100) {
         modifyButton1().style.opacity = 100;
@@ -408,7 +407,7 @@ function createFinalButtons() {
 function createFinalPage() {
     modifyButton1().innerHTML = "Exit";
     modifyButton1().onclick = function() {
-        //clear inventory 
+        //clear inventory but keeps points and name
         localStorage.removeItem("inventory", "conductorkey");
         localStorage.removeItem("damage", "Broken Wrist");
         localStorage.setItem("Points", initialPoints);
